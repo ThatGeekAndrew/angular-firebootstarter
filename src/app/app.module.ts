@@ -22,6 +22,9 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireFunctionsModule } from 'angularfire2/functions';
 
+// NgBootstrap Module
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 // IMPORTANT
 // Add your own project credentials to environments/*.ts
 
@@ -40,6 +43,7 @@ import { AngularFireFunctionsModule } from 'angularfire2/functions';
     AngularFireAuthModule,
     AngularFireStorageModule,
     AngularFireFunctionsModule,
+    NgbModule.forRoot(),
     ServiceWorkerModule.register('/ngsw-worker.js', {
       enabled: environment.production
     })

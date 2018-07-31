@@ -1,8 +1,9 @@
-<div class="basic-note">
-    <h3>{{ note.content }}</h3>
-    <span class="button is-small is-info" (click)='addHeartToNote(note.hearts)'>
-    Heart <i class="fa fa-heart" style="margin-left: 5px;"></i>
-  </span>
-    <span class="button is-small is-danger" (click)='deleteNote(note?.id)'>Delete</span>
-    <p>This note has been hearted {{ note.hearts || 0 }} times.</p>
+<div class="card card-body d-block mb-3">
+  <h3>{{ note.content }}</h3>
+  <div class="d-flex">
+      <button class="btn btn-sm btn-outline-danger mr-auto" (click)='addHeartToNote(note.hearts)'>
+          <i class="fas fa-heart"></i> {{ note.hearts || 0 }} Hearts
+      </button>
+      <button class="btn btn-sm btn-link text-danger" (click)='deleteNote(note?.id)'>Delete</button>
+  </div>
 </div>

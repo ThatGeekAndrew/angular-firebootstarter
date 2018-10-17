@@ -6,13 +6,18 @@
 
 </p>
 
-# FireStarter
+# FireStarter with Bootstrap 4
 
-FireStarter is an Angular PWA powered by Firebase. It can serve as a foundation to learn this stack and roll out more complex features.
+FireStarter is an Angular PWA powered by Firebase. It can serve as a foundation to learn this stack and roll out more complex features. I created this fork in order to provide a Bootstrap 4/ng-bootstrap template instead of wasting time ripping out bulma and replacing it each time I create a new project.
 
-- [Live Demo](https://firestarter-96e46.firebaseapp.com/)
+I even made it look somewhat nice!
+
+- [Rethemed Live Demo](https://firebootstarter.firebaseapp.com/)
+- [Original Live Demo](https://firestarter-96e46.firebaseapp.com/)
 - [Lessons and Screencasts](https://angularfirebase.com)
 - [Join the Slack Team](https://goo.gl/qF8Q5r)
+
+
 
 ## Features
 
